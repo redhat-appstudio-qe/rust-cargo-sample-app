@@ -8,9 +8,9 @@ metadata:
     pipelinesascode.tekton.dev/cancel-in-progress: "false"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
     pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch
-      == "base-rlecpw"
+      == "base-fzwhse"
   labels:
-    appstudio.openshift.io/application: application-vagl
+    appstudio.openshift.io/application: application-hrcg
     appstudio.openshift.io/component: component-prefetch-cargo
     pipelines.appstudio.openshift.io/type: build
   name: component-prefetch-cargo-on-push
